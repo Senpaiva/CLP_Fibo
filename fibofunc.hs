@@ -1,4 +1,4 @@
-fib :: [Int]
+fib :: [Integer]
 fib = zipWith (+) (1:fib) (0:1:fib)
 main :: IO()
 main = do
